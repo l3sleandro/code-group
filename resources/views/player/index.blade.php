@@ -5,8 +5,8 @@
   <h1 class="h2">@lang('default.players')</h1>
   <div class="btn-toolbar mb-2 mb-md-0">
     <div class="btn-group me-2">
-      <a href="{{ route('players.add') }}" class="btn btn-sm btn-primary">
-        @lang('default.add')
+      <a href="{{ route('players.add') }}" class="btn btn-sm btn-info">
+        @lang('default.playersadd')
       </a>
     </div>
   </div>
