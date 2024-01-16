@@ -10,6 +10,11 @@
             @lang('default.players')
           </a>
         </li>
+        <li class="nav-item">
+          <a href="{{ route('schedules.list') }}" class="nav-link d-flex align-items-center gap-2">
+            @lang('default.schedule')
+          </a>
+        </li>
       </ul>
     </div>
   </div>

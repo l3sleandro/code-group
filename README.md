@@ -22,8 +22,8 @@ desenvolver uma aplicação que sorteasse as equipes, com base nas habilidades d
 Essa é sua tarefa.
 
 REQUISITOS
-* Armazenar dados dos jogadores: Nome, nível (de 1 a 5, sendo 1 o pior e 5 o melhor) e se o jogador é goleiro(sim/não).
-* Permitir ao usuário marcar quem confirmou presença.
+ok * Armazenar dados dos jogadores: Nome, nível (de 1 a 5, sendo 1 o pior e 5 o melhor) e se o jogador é goleiro(sim/não).
+ok * Permitir ao usuário marcar quem confirmou presença.
 * Definir o número de jogadores por time.
 * Sortear os jogadores em pelo menos dois times, considerando a quantidade de jogadores definidos e os que foram marcados como
 presentes.

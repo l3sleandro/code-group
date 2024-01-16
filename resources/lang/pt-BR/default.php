@@ -11,5 +11,12 @@ return [
     'leval' => 'Nivél',
     'goalkeeper' => 'Goleiro',
     'confirmed' => 'Confirmado',
-    'save' => 'Salvar'
+    'confirmations' => 'Confirmados',
+    'confirmation' => 'Confirmação',
+    'confirmpresence' => 'Confirmar Presença',
+    'save' => 'Salvar',
+    'schedule' => 'Agenda',
+    'date' => 'Data',
+    'situation' => 'Situação',	
+    'schedulesadd' => 'Novo Jogo'    
 ];
