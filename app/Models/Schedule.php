@@ -25,4 +25,8 @@ class Schedule extends Model{
     return self::$situations;
   }
 
+  public function players(){
+    return $this->belongsToMany(Player::class, 'schedule_players');
+  }
+
 }

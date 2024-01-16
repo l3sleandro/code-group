@@ -15,6 +15,11 @@
             @lang('default.schedule')
           </a>
         </li>
+        <li class="nav-item">
+          <a href="{{ route('lineups.list') }}" class="nav-link d-flex align-items-center gap-2">
+            @lang('default.lineups')
+          </a>
+        </li>
       </ul>
     </div>
   </div>

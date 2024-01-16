@@ -13,8 +13,7 @@ class Player extends Model{
     'name',
     'phone',
     'level',
-    'is_goalkeeper',
-    'is_confirmed'
+    'is_goalkeeper'
   ];
 
   private static $inputLevel = [
@@ -36,6 +35,10 @@ class Player extends Model{
 
   public static function getInputBoolean(){
     return self::$inputBoolean;
+  }
+
+  public function schedules(){
+      return $this->belongsToMany(Schedule::class, 'schedule_players');
   }
 }
 

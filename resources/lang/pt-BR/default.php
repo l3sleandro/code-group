@@ -18,5 +18,9 @@ return [
     'schedule' => 'Agenda',
     'date' => 'Data',
     'situation' => 'Situação',	
-    'schedulesadd' => 'Novo Jogo'    
+    'schedulesadd' => 'Novo Jogo',
+    'lineups' => 'Escalações',
+    'nplayers' => 'Jogadores por time',
+    'generate' => 'Gerar',
+    'team' => 'Time',
 ];
