@@ -5,7 +5,11 @@
     </div>
     <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
       <ul class="nav flex-column">
-        
+        <li class="nav-item">
+          <a href="{{ route('players.list') }}" class="nav-link d-flex align-items-center gap-2">
+            @lang('default.players')
+          </a>
+        </li>
       </ul>
     </div>
   </div>
